@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Simi23</title>
 </head>
 <body>
-    TEST
+    <header>
+        <span>Simi</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="#">Studies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <svg
+            class="progress-ring"
+            width="120"
+            height="120">
+            <circle
+                class="progress-ring__circle"
+                stroke="#254dba"
+                stroke-width="6"
+                fill="transparent"
+                r="48"
+                cx="60"
+                cy="60"/>
+            <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+                Python
+            </text>
+        </svg>
+        <input
+            value="35"
+            type="number"
+            step="5"
+            min="0"
+            max="100"
+            placeholder="progress"
+        >
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
